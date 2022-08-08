@@ -1,5 +1,10 @@
 @import './markdown.css';
 
+:root {
+  --primary-light: #c5e6bb;
+  --primary-dark: #17391a;
+}
+
 html,
 body,
 #app {
@@ -8,8 +13,15 @@ body,
   padding: 0;
 }
 
+html {
+  background: #c5e6bb;
+  color: #17391a;
+  color-scheme: light;
+}
+
 html.dark {
-  background: #121212;
+  background: #17391a;
+  color: #c5e6bb;
   color-scheme: dark;
 }
 
