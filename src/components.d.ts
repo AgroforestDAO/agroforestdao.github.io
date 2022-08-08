@@ -8,10 +8,17 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     BaseButton: typeof import('./components/Atoms/BaseButton.vue')['default']
+    BaseHero: typeof import('./components/Atoms/BaseHero.vue')['default']
+    BaseSubtitle: typeof import('./components/Atoms/BaseSubtitle.vue')['default']
+    BaseTitle: typeof import('./components/Atoms/BaseTitle.vue')['default']
     Counter: typeof import('./components/Counter.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
+    LandingHeader: typeof import('./components/Organisms/Headers/LandingHeader.vue')['default']
+    MenuItem: typeof import('./components/Atoms/MenuItem.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SocialIcon: typeof import('./components/Atoms/SocialIcon.vue')['default']
+    SocialSection: typeof import('./components/Organisms/Sections/SocialSection.vue')['default']
   }
 }
