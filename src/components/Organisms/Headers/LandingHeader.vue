@@ -9,8 +9,17 @@ import { isDark, toggleDark } from '~/composables/dark'
       <img v-if="isDark" src="/agroforestdao_logo_white.png" alt="Agroforest DAO" class="w-14">
       <img v-else src="/agroforestdao_logo.png" alt="Agroforest DAO" class="w-14">
     </div>
-    <Button class="icon-btn" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" />
-    </Button>
+    <div class="flex items-center space-x-3">
+      <MenuItem label="Home" />
+      <MenuItem label="Events" />
+      <MenuItem label="Docs" />
+
+      <Button class="icon-btn pl-7" @click="toggleDark()">
+        <div i="carbon-sun dark:carbon-moon" />
+      </Button>
+      <Button class="icon-btn">
+        <div i="carbon-menu" />
+      </Button>
+    </div>
   </div>
 </template>
