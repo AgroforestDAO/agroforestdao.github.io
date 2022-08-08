@@ -26,6 +26,10 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
     "@iconify-json/carbon": "^1.1.7",
+    "@iconify-json/clarity": "^1.1.4",
+    "@iconify-json/fa": "^1.1.2",
+    "@iconify-json/fa-brands": "^1.1.2",
+    "@iconify-json/logos": "^1.1.14",
     "@intlify/vite-plugin-vue-i18n": "^6.0.0",
     "@types/markdown-it-link-attributes": "^3.0.1",
     "@types/nprogress": "^0.2.0",
