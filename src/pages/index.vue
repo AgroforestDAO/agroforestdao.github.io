@@ -9,11 +9,13 @@
 
 <template>
   <div>
-    Landing Page
+    <BaseHero title="AgroforestDAO" subtitle="Subtitle" />
+
+    <SocialSection />
   </div>
 </template>
 
 <route lang="yaml">
 meta:
-  layout: default
+  layout: landing
 </route>
