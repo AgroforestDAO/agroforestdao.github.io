@@ -1,5 +1,5 @@
 <template>
-  <main class="text-primary-dark dark:text-primary-light">
+  <main class="text-primary-light dark:text-primary-dark">
     <LandingHeader />
     <RouterView />
   </main>
