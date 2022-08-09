@@ -9,8 +9,9 @@
 
 <template>
   <div>
-    <BaseHero title="AgroforestDAO" subtitle="Subtitle" />
+    <BaseHero title="AgroforestDAO" subtitle="Decentered ReFi for a Rooted Society" background-image="https://natturis.com.br/v_2016/wp-content/uploads/2018/05/agricultura-sintropica.jpg" />
 
+    <AboutSection />
     <SocialSection />
   </div>
 </template>
