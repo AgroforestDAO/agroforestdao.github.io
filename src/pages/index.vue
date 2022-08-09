@@ -12,7 +12,10 @@
     <BaseHero title="AgroforestDAO" subtitle="Decentered ReFi for a Rooted Society" background-image="https://natturis.com.br/v_2016/wp-content/uploads/2018/05/agricultura-sintropica.jpg" />
 
     <AboutSection />
+    <RoadmapSection />
     <SocialSection />
+    <HighlightSection />
+    <InitiativesSection />
   </div>
 </template>
 
