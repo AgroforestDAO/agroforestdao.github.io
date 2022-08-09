@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { isDark, toggleDark } from '~/composables/dark'
+const externalRouteTo = (route = '') => {
+  window.open(route, '_blank')
+}
 </script>
 
 <template>
@@ -10,9 +13,10 @@ import { isDark, toggleDark } from '~/composables/dark'
       <img v-else src="/agroforestdao_logo.png" alt="Agroforest DAO" class="w-14">
     </div>
     <div class="flex items-center space-x-3">
-      <MenuItem label="Home" />
-      <MenuItem label="Events" />
-      <MenuItem label="Docs" />
+      <MenuItem label="Home" route-to="/" />
+      <MenuItem label="Events" route-to="/events" />
+
+      <MenuItem label="Docs" @click="externalRouteTo('https://fh-costa.gitbook.io/agroforestdao/')" />
 
       <Button class="icon-btn pl-7" @click="toggleDark()">
         <div i="carbon-sun dark:carbon-moon" />
