@@ -3,7 +3,7 @@ import { isDark, toggleDark } from '~/composables/dark'
 </script>
 
 <template>
-  <div class="flex p-3 justify-between border-b-3 border-black dark:border-white">
+  <div class="flex p-3 justify-between border-b-3 border-dark dark:border-light bg-light dark:bg-dark text-dark dark:text-light">
     <div>
       <!-- todo: change logo bg color(transparent) -->
       <img v-if="isDark" src="/agroforestdao_logo_white.png" alt="Agroforest DAO" class="w-14">

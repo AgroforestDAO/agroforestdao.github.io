@@ -7,7 +7,7 @@ const props = defineProps<Props>()
 </script>
 
 <template>
-  <h1 class="text-7xl font-bold">
+  <h1 class="title">
     <slot>
       {{ props.label }}
     </slot>

@@ -1,28 +1,11 @@
 @import './markdown.css';
 
-:root {
-  --primary-light: #c5e6bb;
-  --primary-dark: #17391a;
-}
-
 html,
 body,
 #app {
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-html {
-  background: #c5e6bb;
-  color: #17391a;
-  color-scheme: light;
-}
-
-html.dark {
-  background: #17391a;
-  color: #c5e6bb;
-  color-scheme: dark;
 }
 
 #nprogress {
