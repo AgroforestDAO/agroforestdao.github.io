@@ -1,6 +1,6 @@
 <template>
   <div class="h-[50vh] flex flex-col items-center justify-center space-y-14 gray-section">
-    <h2 class="subtitle ">
+    <h2 class="subtitle">
       Join us!
     </h2>
     <div class="flex items-center justify-center space-x-20">
