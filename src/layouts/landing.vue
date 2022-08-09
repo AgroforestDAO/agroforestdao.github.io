@@ -1,6 +1,0 @@
-<template>
-  <main class="text-primary-light dark:text-primary-dark">
-    <LandingHeader />
-    <RouterView />
-  </main>
-</template>
