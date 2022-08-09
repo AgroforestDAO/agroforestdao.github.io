@@ -18,6 +18,7 @@ export default defineConfig({
     ['green-section', 'bg-light dark:bg-dark text-stone-700 dark:text-stone-300'],
     ['gray-section', 'bg-stone-300 dark:bg-stone-700 text-dark dark:text-light'],
     ['section-border', 'border-b-3 border-stone-700 dark:border-stone-300'],
+    ['brut-padding', 'bg-white dark:bg-stone-700 py-2 px-3'],
   ],
   presets: [
     presetUno(),

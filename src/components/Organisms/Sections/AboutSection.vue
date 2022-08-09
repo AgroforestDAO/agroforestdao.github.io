@@ -1,6 +1,6 @@
 <template>
   <div class="h-[50vh] flex flex-col items-center justify-center space-y-14 green-section section-border">
-    <h2 class="subtitle ">
+    <h2 class="subtitle brut-padding">
       What is Agroforest DAO?
     </h2>
     <p class="max-w-[70%] text-center">
